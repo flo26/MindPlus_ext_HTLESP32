@@ -1,24 +1,24 @@
 {
 	"name": {
-		"zh-cn": "OLED-12864显示屏(示例)",
-		"en": "OLED-12864 screen"
+		"zh-cn": "ESP32 Boards @HTLFulpmes",
+		"en": "ESP32 Boards @HTLFulpmes"
 	},
 	"description": {
-		"zh-cn": "小体积显示屏，可用于智能穿戴设备的显示器。(用户库示例)",
-		"en": "I2C OLED-2864 Display Module"
+		"zh-cn": "ESP32 Pin Settings, WROOM Boards @HTLFulpmes",
+		"en": "ESP32 Pin Settings, WROOM Boards @HTLFulpmes"
 	},
-	"author": "DFRobot",
-	"email": "MindPlus@dfrobot.com",
+	"author": "Florian Mueller",
+	"email": "fl.mueller@htl-fulpmes.at",
 	"license": "MIT",
 	"isBoard": false,
-	"id": "oled12864",
-	"platform": ["win", "mac", "web"],
-	"version": "0.0.3",
+	"id": "esp32portwroom01",
+	"platform": ["win"],
+	"version": "0.0.1",
 	"asset": {
 		"arduinoC": {
 			"dir": "arduinoC/",
-			"version": "0.0.3",
-			"board": ["microbit", "esp32"],
+			"version": "0.0.1",
+			"board": ["firebeetleesp32e"],
 			"main": "main.ts"
 		}
 	}
